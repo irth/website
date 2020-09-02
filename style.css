@@ -92,6 +92,12 @@ body.gemini a {
     color: white;
 }
 
+body.gemini a.no-title,
+body.gemini a[href^="https://matrix.to/"],
+body.gemini a[href^="https://mastodon.r23s.eu/"] {
+    word-break: break-all;
+}
+
 body.gemini a::before {
     content: '=> ';
     margin-left: -3ch;
