@@ -59,16 +59,26 @@ listen together.
 => https://github.com/irth/blag
 => https://xkcd.com/148/
 
-A static site (blog) generator written in Go, with optional Disqus and Google Analytics support.
+A static site (blog) generator written in Go, with optional Disqus and Google
+Analytics support.
 
 ### Kiedy niedziela handlowa?
  
 => https://niedziela.irth.pl
 
-A site telling you whether the shops in Poland will be open on the next Sunday. (Large stores are not allowed by law to be open on most Sundays.) 
+A site telling you whether the shops in Poland will be open on the next Sunday.
+(Large stores are not allowed by law to be open on most Sundays.) 
 
 ### GopherNews
 
 => https://github.com/irth/gophernews
 
-A proxy that allows you to browse Hacker News using your favourite Gopher client, written in Go.
+A proxy that allows you to browse Hacker News using your favourite Gopher
+client, written in Go.
+
+### gm2html
+
+=> https://git.r23s.eu/wojciech/gm2html
+
+Converts text/gemini into HTML. Powers this site. Also contains a text/gemini
+parser as the git.r23s.eu/wojciech/gm2html/gemini package.
