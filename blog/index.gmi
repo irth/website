@@ -1,0 +1,7 @@
+# Wojciech ~irth Kwolek
+=> .. Back
+
+## Blog
+
+=> posts/2_second.gmi.gmi  This is another test post.
+=> posts/1_initial.gmi  First post on the new blog.

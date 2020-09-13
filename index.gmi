@@ -13,8 +13,13 @@ My name is Wojciech Kwolek, I am from Poland.
 I like coding, creating things, usually while listening to music. I sometimes
 roller-blade or ski.
 
+This website is available both via Gemini and HTTPS.
+=> gemini://irth.pl
+=> https://irth.pl
+
 ## Links
 
+=> blog  Blog
 => https://github.com/irth                Github
 => https://git.r23s.eu/wojciech           Personal Gitea instance
 => https://mastodon.r23s.eu/@wojciech     @wojciech@mastodon.r23s.eu
