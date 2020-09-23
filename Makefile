@@ -1,7 +1,7 @@
 GMI_FILES := $(shell find . -type f -name '*.gmi')
 HTML_FILES := $(patsubst %.gmi,%.html,$(GMI_FILES))
 
-.PHONY: all blog_index
+.PHONY: all
 all: $(HTML_FILES)
 
 blog/index.html: blog/posts/*.gmi blog/blog.sh

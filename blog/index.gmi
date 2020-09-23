@@ -3,5 +3,6 @@
 
 ## Blog
 
+=> posts/3_duolingo_helper.gmi  A Duolingo helper to avoid skipping through corrections.
 => posts/2_plans_for_DoneTh.at.gmi  DoneTh.at: the why and the future
 => posts/1_initial.gmi  First post on the new blog.
