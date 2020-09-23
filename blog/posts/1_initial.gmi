@@ -1,9 +1,11 @@
-# Wojciech ~irth Kwolek
-
-## First post on the new blog.
+# First post on the new blog.
 
 Hello. This is mainly a test post, because I just wrote some magical bash code
 to generate the blog's gemini source, which is then transformed to HTML by
 gm2html, which powers my main website, too.
+
+```
+Written by: Wojciech ~irth Kwolek
+```
 
 => .. Back

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 title() {
-    head -n3 "$1" | tail -n 1 | sed -r 's/^\#+\s+//'
+    head -n1 "$1" | sed -r 's/^\#+\s+//'
 }
 
 new() {

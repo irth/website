@@ -1,6 +1,4 @@
-# Wojciech ~irth Kwolek
-
-## DoneTh.at: the why and the future
+# DoneTh.at: the why and the future
 
 As some of you might know (because it is on my main website), I have recently
 built DoneTh.at:
@@ -101,7 +99,7 @@ and responses.
 
 
 ```
-written: 2020-09-22
+Written by: 2020-09-22
 ```
 
 => .. Back

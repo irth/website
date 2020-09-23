@@ -1,8 +1,6 @@
-# Wojciech ~irth Kwolek
+# A Duolingo helper to avoid skipping through corrections.
 
-## A Duolingo helper to avoid skipping through corrections.
-
-### Problem
+## Problem
 
 I tend to go through Duolingo lessons quite fast (if you do not know what
 Duolingo is, I recommend checking it out - it is quite a fun way to learn
@@ -21,7 +19,7 @@ Enter key twice to go as fast as possible to the next lessons.
 
 Aaand then I decided to fix that with my computer-y powers.
 
-### Solution
+## Solution
 
 => ./3_duolingo_helper/duolingo-tampermonkey.js  duolingo-tampermonkey.js
 
@@ -31,7 +29,7 @@ keypresses, and works as follows:
 * If you did the exercise correctly, the second enter gets you to the next one.
 * If you made a mistake, the second Enter keypress is ignored, you can read the correction, and then press Enter again to advance.
 
-### Installation
+## Installation
 
 To install it you need to get the Tampermonkey extension for your browser from
 the link above, click on its icon, go to "Dashboard", then "Utilities", and you
@@ -45,7 +43,8 @@ Here's the link to Tampermonkey and to the script:
 Enjoy!
 
 ```
-written: 2020-09-23
+Written by: Wojciech ~irth Kwolek
+Written at: 2020-09-23
 ```
 
 => .. Back
