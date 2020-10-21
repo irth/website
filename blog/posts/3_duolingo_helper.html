@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>irth's wobsite</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body class="gemini">
+    <div class="page">
+<h1>A Duolingo helper to avoid skipping through corrections.</h1>
+<h2>Problem</h2>
+<p>
+  I tend to go through Duolingo lessons quite fast (if you do not know what
+  Duolingo is, I recommend checking it out - it is quite a fun way to learn
+  languages, and for free.)
+</p>
+<div><a href="https://duolingo.com">Duolingo - fun and free way to learn languages</a></div>
+<p>
+  This results in me usually typing in the sentences at my 80 WPM (well, the
+  average is probaly less, but I&#39;m trying to train it to be more consistent), then
+  quickly smashing Enter twice to first submit the sentence, and then accept the
+  &#34;Correct!&#34; message.
+</p>
+<p>
+  Sometimes, however, I make a mistake, and would like to read the correction
+  before advancing further. Unfortunately, my monkey brain got trained to mash the
+  Enter key twice to go as fast as possible to the next lessons.
+</p>
+<p>
+  Aaand then I decided to fix that with my computer-y powers.
+</p>
+<h2>Solution</h2>
+<div><a href="./3_duolingo_helper/duolingo-tampermonkey.js">duolingo-tampermonkey.js</a></div>
+<p>
+  It is a simple userscript for Tampermonkey, which catches all the Enter
+  keypresses, and works as follows:
+</p>
+<ul>
+  <li>If you did the exercise correctly, the second enter gets you to the next one.</li>
+  <li>If you made a mistake, the second Enter keypress is ignored, you can read the correction, and then press Enter again to advance.</li>
+</ul>
+<h2>Installation</h2>
+<p>
+  To install it you need to get the Tampermonkey extension for your browser from
+  the link above, click on its icon, go to &#34;Dashboard&#34;, then &#34;Utilities&#34;, and you
+  can paste the URL from below in the &#34;Install from URL&#34; field.
+</p>
+<p>
+  Here&#39;s the link to Tampermonkey and to the script:
+</p>
+<div><a href="https://www.tampermonkey.net/">Tampermonkey - required to run the script.</a></div>
+<div><a href="https://irth.pl/blog/posts/3_duolingo_helper/duolingo-tampermonkey.js" class="no-title">https://irth.pl/blog/posts/3_duolingo_helper/duolingo-tampermonkey.js</a></div>
+<p>
+  Enjoy!
+</p>
+<pre>
+Written by: Wojciech ~irth Kwolek
+Written at: 2020-09-23
+</pre>
+<div><a href="..">Back</a></div>
+    </div>
+</body>
+
+</html>
