@@ -18,7 +18,7 @@ generate() {
     echo >> index.gmi
 
     for i in $(ls posts/*.gmi | sort -nr); do
-        echo "=> $i $(date "$i") - $(title "$i")" >> index.gmi
+        echo "=> $i $(date "$i")  $(title "$i")" >> index.gmi
     done
 
     echo "" >> index.gmi
