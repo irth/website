@@ -1,0 +1,17 @@
+# On Xiaomi's tracking
+
+So recently I've been trying to cut down on how much access to my data Google and Facebook have. It's going quite well, I've moved my "cloudy" needs to my home-server, including email, and switched to an iPhone SE. I'm looking forward to eventually switching to a PinePhone.
+
+However, for quite a long time I've been using a Xiaomi Mi Band 3. Last night I randomly woke up because of a noti­fication(I forgot to switch on "Do not disturb" on my phone), and when trying to fall asleep again, I thought about how the band was strapped too tightly onto my wrist. Then another thought came to my head: If I am so against being tracked by Google and FB, why the hell am I sending Xiaomi my heart rate, approximate location, the entire SLEEP SCHEDULE (they know when I'm awake!) and weight!?
+
+And so, I took the band off. I haven't been using it since. Maybe I'll get a PineTime some day.
+
+(This post was first available in a hand-written version on my Scribblelog)
+=> https://scribble.irth.pl
+
+```
+Written by: Wojciech ~irth Kwolek
+Written at: 2020-11-27
+```
+
+=> .. Back

@@ -3,13 +3,14 @@ title() {
     head -n1 "$1" | sed -r 's/^\#+\s+//'
 }
 
-date() {
+postdate() {
     echo "$(basename "$1")" | cut -d_ -f1
 }
 
 new() {
-    cp template "posts/$1.gmi"
-    nvim "posts/$1.gmi"
+    path="posts/$(date -Idate)_$1.gmi"
+    cp template "$path"
+    nvim "$path"
 }
 
 generate() {
@@ -18,7 +19,7 @@ generate() {
     echo >> index.gmi
 
     for i in $(ls posts/*.gmi | sort -nr); do
-        echo "=> $i $(date "$i")  $(title "$i")" >> index.gmi
+        echo "=> $i $(postdate "$i")  $(title "$i")" >> index.gmi
     done
 
     echo "" >> index.gmi
