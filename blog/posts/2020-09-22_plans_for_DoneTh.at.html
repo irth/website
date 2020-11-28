@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>irth's wobsite</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body class="gemini">
+    <div class="page">
+<h1>DoneTh.at: the why and the future</h1>
+<p>
+  As some of you might know (because it is on my main website), I have recently built DoneTh.at:
+</p>
+<div><a href="https://doneth.at" class="no-title">https://doneth.at</a></div>
+<p>
+  The reasoning behind the project is that I noticed that I often feel like I waste my time a lot or am unproductive everyday. Even though that is true sometimes, usually it&#39;s just that I quickly forget what I accomplished during the day, and unless I have been working on something all day, I feel like I didn&#39;t do much.
+</p>
+<p>
+  So, I made a simple website that allows me to track what I accomplished each day. Each accomplishement has a difficulty value assigned, which allows me to compare days, have daily goals and draw graphs.
+</p>
+<p>
+  Originally, it was supposed to be an app that takes your TODOs from CalDAV or other services and draws a Github style activity graph based on how many tasks you complete. However, this had a few issues:
+</p>
+<ul>
+  <li>CalDAV is a PITA to work with.</li>
+  <li>CalDAV doesn&#39;t support hand written TODOs, which I&#39;ll switch to once I get my reMarkable 2.</li>
+  <li>You need to plan for each task ahead of time, no easy way to get points for something done without planning.</li>
+  <li>Lot&#39;s of edge cases when syncing.</li>
+</ul>
+<p>
+  Eventually, I came up with a cool domain name (DoneTh.at) and at that moment I decided to ditch the CalDAV sync idea and implement DoneTh.at instead.
+</p>
+<h2>Future plans</h2>
+<h3>Storing dates for the accomplishements and day-start-hour customisation</h3>
+<p>
+  First, I need to refactor the code to use dates without time, because time has timezones and I do not want to handle this.
+</p>
+<p>
+  The only point where actual time will be handled is when creating an accomplishement and then I&#39;d like it to be as simple as possible:
+</p>
+<ul>
+  <li>Get the time in the user&#39;s configured timezone.</li>
+  <li>Get just the date from that timestamp, without hours.</li>
+  <li>Check what hour the user considers &#34;start-of-day&#34;.</li>
+  <li>If the time is before, set the day to the day before.</li>
+  <li>Otherwise, set it to the day from the timestamp.</li>
+</ul>
+<p>
+  Once the timezone and start-of-day hour is considered, the resulting day is saved in the database and I don&#39;t have to worry about the user changing the timezone or the hour later, as it won&#39;t affect historical data.
+</p>
+<p>
+  This also solves a problem where I didn&#39;t know what timestamp to associate with accomplishements created from the edit view, for previous days. I do not want to ask the user for the exact time, as they might not know it, and I want the UX to be uncluttered.
+</p>
+<p>
+  Allowing customising the hour that is considered the beginning of a new day would be useful for me and I&#39;m sure for many others who also often do stuff in the night and go to sleep at 3 or 4 AM. The credit for the idea goes to the authors/contributors of GTimeLog which I got the idea from.
+</p>
+<div><a href="https://gtimelog.org/">GTimeLog - a very nice open-source time tracker.</a></div>
+<h3>Quests</h3>
+<p>
+  Quests are kind of like TODOs - they are accomplishements, with associated difficulty, which you haven&#39;t done yet. You can add quests when you know you need to do something, and then when you eventually do it, just mark it as done and it is saved as an accomplishement.
+</p>
+<p>
+  I plan of adding two types of quests - one-off and recurring. One-off quests are ordinary TODOs, recurring quests are for stuff like &#34;Practice Dutch&#34; which you need to do every day.
+</p>
+<p>
+  I need to figure out how to add it without sacrificing the simplicity DoneTh.at currently has.
+</p>
+<h3>Daily goal</h3>
+<p>
+  Allow to set a daily goal, and then the app would track your streak and show you how much you need to do to reach the goal.
+</p>
+<h3>Activity graph</h3>
+<p>
+  Github style activity graph, but based on how much of the daily goal you did.
+</p>
+<p>
+  (The daily target would be, I guess, around 50% color value, as ideally you would reach it every day, and having the graph clipped at that value would result in a kinda boring graph.)
+</p>
+<h3>Categories and advanced input parsing</h3>
+<p>
+  Categories based on #hashtags in the accomplishement text. I also want to support changing the difficulty by writting stuff like &#34;+30&#34; in the input field.
+</p>
+<h3>API</h3>
+<p>
+  For apps and stuff.
+</p>
+<p>
+  Currently DoneTh.at is 100% server-side rendered and works without JavaScript (it even mostly works with Lynx, except that it doesn&#39;t refresh after submitting forms, I&#39;ll need to fix that), and I think I want to keep it that way, but I&#39;ll see if I can extend it easily to support bearer token auth and JSON in requests and responses.
+</p>
+<pre>
+Written by: Wojciech ~irth Kwolek
+Written at: 2020-09-22
+</pre>
+<div><a href="..">Back</a></div>
+    </div>
+</body>
+
+</html>
