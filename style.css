@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
 /* common */
 body.gemini {
     background: #111;
     color: white;
-    font-size: 0.8em;
-    font-family: "Roboto Mono", monospace;
+    font-size: 1em;
     max-width: 640px;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 4em;
+    font-family: "Lato", sans-serif;
 }
 
 
@@ -27,14 +28,11 @@ body.gemini p {
 body.gemini *::before,
 body.gemini *::after {
     color: #999;
+    font-family: "Roboto Mono", monospace !important;
+    font-size: 1rem;
 }
 
 /* headings */
-body.gemini h1,
-body.gemini h2,
-body.gemini h3 {
-    font-family: "Roboto Mono", monospace;
-}
 
 body.gemini h1 {
     font-size: 1.7em;
@@ -71,25 +69,36 @@ body.gemini ul li::before {
 
 body.gemini h1::before {
     content: '#';
-    margin-left: -1.5ch;
-    margin-right: .5ch;
+    font-size: 1.5rem;
+    margin-left: -1.6ch;
+    margin-right: 0.6ch;
 }
 
 body.gemini h2::before {
-    content: '## ';
-    margin-left: -3ch;
+    content: '##';
+    font-size: 1.2rem;
+    margin-left: -2.83ch;
+    margin-right: 0.83ch;
 }
 
 body.gemini h3::before {
-    content: '### ';
-    margin-left: -4ch;
+    content: '###';
+    font-size: 0.9rem;
+    margin-left: -4.1111ch;
+    margin-right: 1.1111ch;
 }
+
+
 
 /* links and protocol prefixes/suffixes */
 body.gemini a {
     display: block;
     margin-top: .5em;
     color: white;
+}
+
+body.gemini a::after {
+    font-size: 0.8em;
 }
 
 body.gemini a.no-title,

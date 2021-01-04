@@ -1,0 +1,22 @@
+# Wojciech ~irth Kwolek
+=> .. Back
+## Database of links/notes that made me understand various topics I had trouble with.
+
+Most of the stuff that is being taught to me in the university seems to be "how to obtain a certain result using a memorized set of complicated rules and equations".
+
+Instead of boring memorization, I prefer figuring out how to derive the rules and equations from the simple principles governing whatever I am having trouble with.
+
+Only then I feel like I understand the topic enough and can move on.
+
+However, this makes me "waste" a lot of time on searching for explanations that are... I guess, easy-enough, for me to understand and don't make a lot of assumptions without telling me why they're making those assumptions.
+
+So, I plan on putting everything I find here, and maybe later someone else will find that helpful.
+
+And I can have a reminder, too.
+
+### Operational Amplifiers
+
+This EEVblog video basically made me understand how OpAmps work by giving the set of two simple rules, that can be used to figure out the rest. Try watching this and calculating the input voltage / output voltage relation on your own along the way, I'll post my calculations with comments here soon.
+
+=> https://www.youtube.com/watch?v=7FYHt5XviKc  EEVblog #600 - OpAmps Tutorial - What is an Operational Amplifier?
+

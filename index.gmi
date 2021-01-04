@@ -17,6 +17,7 @@ This website is available both via Gemini and HTTPS.
 ## Links
 
 => blog  Blog
+=> /understanding  Database of links/notes that made me understand various topics I had trouble with.
 => https://github.com/irth                Github
 => https://git.r23s.eu/wojciech           Personal Gitea instance
 => https://mastodon.r23s.eu/@wojciech     @wojciech@mastodon.r23s.eu
