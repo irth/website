@@ -14,6 +14,19 @@ So, I plan on putting everything I find here, and maybe later someone else will 
 
 And I can have a reminder, too.
 
+
+### Common emmiter BJT amplifier
+
+A six minute video that explains how to calculate how the BJT common emitter amplifier works.
+
+=> https://www.youtube.com/watch?v=s8QyOcdgZtA  Professor Curtis Meyer - The Common Emitter Amplifier
+
+The video uses an approximation, saying the emitter current is the same as the collector current.
+
+This is pretty much true, as the emitter current is the sum of the collector current and the base current, and by definition (the collector current is the amplified base current), this base current is at least ~100 times smaller, so it doesn't really matter much.
+
+
+
 ### Operational Amplifiers
 
 This EEVblog video basically made me understand how OpAmps work by giving the set of two simple rules, that can be used to figure out the rest. Try watching this and calculating the input voltage / output voltage relation on your own along the way, I'll post my calculations with comments here soon.
