@@ -144,4 +144,8 @@ body.gemini a[href^="mailto:"]::after {
     content: " [Email]"
 }
 
+body.gemini a[href^="https://youtube.com"]::after,
+body.gemini a[href^="https://www.youtube.com"]::after {
+    content: " [YouTube]"
+}
 
