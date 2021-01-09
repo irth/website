@@ -1,6 +1,7 @@
 # Wojciech ~irth Kwolek's blag
 => .. Back
 
+=> posts/2021-01-09_reverse_pomodoro.gmi 2021-01-09  Reverse pomodoro
 => posts/2020-11-27_xiaomi.gmi 2020-11-27  On Xiaomi's tracking
 => posts/2020-09-23_duolingo_helper.gmi 2020-09-23  A Duolingo helper to avoid skipping through corrections.
 => posts/2020-09-22_plans_for_DoneTh.at.gmi 2020-09-22  DoneTh.at: the why and the future
