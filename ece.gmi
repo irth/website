@@ -1,0 +1,27 @@
+# ECE links
+
+## (at least for my group)
+
+## 2020/2021 summer semmester
+
+### ePortal
+
+=> https://eportal.pwr.edu.pl/course/view.php?id=23115  Electronic Circuits 1 P
+=> https://eportal.pwr.edu.pl/course/view.php?id=23113  Electronic Circuits 1 L
+
+=> https://eportal.pwr.edu.pl/course/view.php?id=23121  Programming Systems and Environments W
+=> https://eportal.pwr.edu.pl/course/view.php?id=23119  Programming Systems and Environments L
+
+=> https://eportal.pwr.edu.pl/course/view.php?id=23125  Introduction to Automation W
+=> https://eportal.pwr.edu.pl/course/view.php?id=23124  Introduction to Automation L
+
+=> https://eportal.pwr.edu.pl/course/view.php?id=23129  Introduction to Robotics W
+=> https://eportal.pwr.edu.pl/course/view.php?id=23128  Introduction to Robotics L
+
+=> https://eportal.pwr.edu.pl/course/view.php?id=23133  Fundamentals of Telecommunications W
+=> https://eportal.pwr.edu.pl/course/view.php?id=23130  Fundamentals of Telecommunications L
+
+=> https://eportal.pwr.edu.pl/course/view.php?id=23139  Introduction to Microcontrollers W
+=> https://eportal.pwr.edu.pl/course/view.php?id=23136  Introduction to Microcontrollers L
+=> https://eportal.pwr.edu.pl/course/view.php?id=23134  Introduction to Microcontrollers C
+
