@@ -41,7 +41,6 @@ It allows the user to assign points based on task difficulty, keep a daily goal 
 
 ### Together for Spotify
 
-=> https://together.irth.pl
 => https://github.com/irth/together
 
 (Temporarily offline)
@@ -62,9 +61,9 @@ A static site (blog) generator written in Go, with optional Disqus and Google An
 
 ### Kiedy niedziela handlowa?
  
-=> https://niedziela.irth.pl
-
 A site telling you whether the shops in Poland will be open on the next Sunday. (Large stores are not allowed by law to be open on most Sundays.) 
+
+No longer updated. (Only the Sundays before catholic holidays are allowed nowadays.)
 
 ### GopherNews
 
