@@ -33,3 +33,18 @@ This EEVblog video basically made me understand how OpAmps work by giving the se
 
 => https://www.youtube.com/watch?v=7FYHt5XviKc  EEVblog #600 - OpAmps Tutorial - What is an Operational Amplifier?
 
+
+### FIR (Finite impulse response) filters
+
+Fourier transform:
+
+=> https://www.youtube.com/watch?v=spUNpyF58BY  3Blue1Brown - But what is the Fourier Transform? A visual introduction.
+
+FIR theory and implementation: (this one showed me how to design a FIR filter ...in theory.)
+
+=> https://www.youtube.com/watch?v=uNNNj9AZisM  Phil's Lab - FIR Filter Design and Software Implementation
+
+Explanation of Scipy's firwin function implementation for filter design:
+
+=> https://www.youtube.com/watch?v=GpiL9vqQqlE  Digital Signal Processing - FIR design/windowing: Scipy's firwin command (0010,Py)
+=> https://github.com/scipy/scipy/blob/v1.6.2/scipy/signal/fir_filter_design.py#L262-L480 Scipy's Github - implementation of firwin
